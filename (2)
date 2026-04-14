@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>物理科学部予想問題閲覧サイト</title>
+    <style>
+        /* --- CSS (スタイル) --- */
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 150vh;
+            margin: 0;
+            color: #1f1d1d;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 2.5rem;
+            border-radius: 25px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+            width: 90%;
+            max-width: 500px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #1a73e8;
+        }
+
+        .description {
+            text-align: center;
+            font-size: 1.5rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .link-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .link-item {
+            margin-bottom: 8px;
+        }
+
+        /* リンクをボタンのように見せるスタイル */
+        .link-anchor {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 7px 30px;
+            background-color: #f9fcff;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 800;
+            transition: all 0.2s ease;
+        }
+
+        /* ホバー（マウスを乗せた時）の動き */
+        .link-anchor:hover {
+            border-color: #1a73e8;
+            background-color: #f8faff;
+            transform: translateY(-2px);
+            box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+        }
+
+        /* 矢印アイコンの擬似要素 */
+        .link-anchor::after {
+            content: '→';
+            color: #1a73e8;
+            font-size: 2.5rem;
+            transition: transform 0.2s;
+        }
+
+        .link-anchor:hover::after {
+            transform: translateX(5px);
+        }
+
+        .footer-note {
+            margin-top: 1.5rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>聖光学院物理科学部予想問題PDF</h1>
+    <p class="description">タップするとPDFを閲覧し印刷することができます。</p>
+
+    <div class="link-list">
+        <div class="link-item">
+            <a href="https://drive.google.com/file/d/15WR0DmrAri0Z5VPPEbjR4lN_ccSeC3tq/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="link-anchor">
+                　今年（2026）予想問題
+            </a>
+        </div>
+
+        <div class="link-item">
+            <a href="https://drive.google.com/uc?export=download&id=1YNNRPfBvgQ_ebC25lCqzGceAxI4QCFu3" target="_blank" rel="noopener noreferrer" class="link-anchor">
+                 　去年（2025）予想問題
+            </a>
+        </div>
+
+        <div class="link-item">
+            <a href="https://drive.google.com/uc?export=download&id=1-HHamuqIb0sUCEBnJTSugy3ffhSFmRVa" target="_blank" rel="noopener noreferrer" class="link-anchor">
+                一昨年（2024）予想問題
+            </a>
+        </div>
+
+        <div class="link-item">
+            <a href="https://drive.google.com/uc?export=download&id=1-HHamuqIb0sUCEBnJTSugy3ffhSFmRVa" target="_blank" rel="noopener noreferrer" class="link-anchor">
+                三年前（2023）予想問題
+
+            </a>
+        </div>
+    </div>
+
+    <div class="footer-note">
+        
+    </div>
+</div>
+
+</body>
+</html>
